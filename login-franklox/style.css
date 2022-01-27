@@ -1,0 +1,121 @@
+/* Custom Properties */
+:root{
+    --font: 'Raleway','san-serif';
+    --black-50: rgba(0, 0, 0, 0.5);
+}
+
+/* Reseteo */
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+a, input, label {
+    display: block;
+    text-align: left;
+    font-family: var(--font);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Clasesssssssssssssss */
+
+.avatar {
+    top: calc(10% - 16px);
+    position: absolute;
+    z-index: 7;
+  }
+
+.button {
+    background-color: #1F2E7B;
+    width: 256px;
+    height: 55px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 16px 32px 32px;
+}
+
+.button:hover {
+    background-color: #800080;
+}
+
+.hero-image {
+    background-image: var(--image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: var(--attachment);
+}
+
+.hero-image-content {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--op-color);
+} 
+
+.login-content {
+    min-width: 320px;
+    height: 460px;
+    background-color: #1d1d1d;
+}
+
+.login-content a {
+    margin: 16px 32px;
+    padding: 0px;
+}
+
+.login-content input {
+    width: -webkit-fill-available;
+    margin: 0 32px;
+}
+
+.login-content label {
+    font-size: 24px;
+    color: #fff;
+    margin: 0px 32px;
+}
+
+.login-content input[type="text"], 
+.login-content input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-content input[type="text"] {
+    margin-bottom: 32px;
+}
+
+.login-content label:first-child {
+    margin-top: 64px;
+}
+
+
+
